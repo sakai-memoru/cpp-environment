@@ -9,6 +9,6 @@ string getMessage() {
 
 int main() {
   string name = getMessage();
-  std::cout << "Hello, " << name << " !!\n";
+  cout << "Hello, " + name + " !!\n";
   return 0;
 }
